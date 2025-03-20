@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: "/VideoMemoria/",  // Asegúrate de cambiarlo por el nombre de tu repo en GitHub
+  base: "/VideoMemoria/", // Cambia "VideoMemoria" por el nombre EXACTO de tu repositorio
   plugins: [react()],
 });
+
